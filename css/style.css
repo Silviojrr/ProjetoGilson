@@ -10,7 +10,7 @@
 
 /*============================Edição do menú de navegação==========================*/
 body {
-    background-color: #FFF;
+    background-color: rgb(10, 10, 10);
 }
 
 div.container {
@@ -66,7 +66,7 @@ img.logo-foto {
 
 /*========================Início do código campo de Produtos Promocionais ===========================*/
 h2.destaques {
-    color: #141414;
+    color: #ffffff;
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
@@ -159,3 +159,20 @@ footer img, p.informacao {
     font-size: 18px;
     padding-left: 5px;
 }
+
+.conteudo-metodos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.icon-master{
+    background: url(../imagens/icons-pagamento/cc-mastercard-brands.svg) no-repeat;
+  }
+  .icon-visa{
+    background: url(../imagens/icons-pagamento/cc-visa-brands.svg) no-repeat;
+  }
+  .icon-pix{
+    background: url(../imagens/icons-pagamento/pix-brands.svg) no-repeat;
+  }
