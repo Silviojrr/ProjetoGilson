@@ -161,18 +161,30 @@ footer img, p.informacao {
 }
 
 .conteudo-metodos{
+    
     display: flex;
     flex-direction: row;
-    align-items: center;
+    
+}
+
+.ul{
+    
+    list-style: none;
+    margin-left: 20px;
+    
 }
 
 
-.icon-master{
-    background: url(../imagens/icons-pagamento/cc-mastercard-brands.svg) no-repeat;
-  }
-  .icon-visa{
-    background: url(../imagens/icons-pagamento/cc-visa-brands.svg) no-repeat;
-  }
-  .icon-pix{
-    background: url(../imagens/icons-pagamento/pix-brands.svg) no-repeat;
-  }
+.master{
+    height: 25px;
+    
+}
+
+.visa {
+    height: 25px;
+}
+
+.pix{
+    height: 25px;
+}
+  
